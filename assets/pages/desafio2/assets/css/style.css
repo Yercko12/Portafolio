@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.header{
+    height: 10em;
+    padding: 5em;
+    font-size: 1em;    
+    background-image: url(../img/photo-1514888286974-6c03e2ca1dba.avif);
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+}
+
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    ;
+
+    background-color: #7183e7;
+    }
+    
+.gatitos{
+    width: 80%;
+    margin: auto;
+}
+
+.gatitos td{
+    width: 4%;
+    padding: 2em;
+}
+.gatitos img{
+    width: 100%;
+    border: solid 1px #000000;
+}
+
+.footer{
+height: 3em;
+line-height: 3em;
+background-color: rgb(202, 112, 23);
+color: rgb(0, 0, 0);
+text-align: center;
+font-weight: 900;
+}

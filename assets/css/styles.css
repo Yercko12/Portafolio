@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Slide */
+
+.carousel-item {
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lab.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nombre {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .header p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+} */
+
+
+
+/* Sobre mi */
+
+.container-fluid {
+    background-color: rgb(21, 86, 226);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobremi {
+    font-size: 35px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+
+.col-md-6 p {
+    color: antiquewhite;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.foto {
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.presentacion {
+    color: #fff;
+    background-color: rgb(21, 86, 226);
+    height: 150px;
+    text-align: center;
+}
+
+
+/* Experiencia Laboral */
+.experiencia {
+    color: antiquewhite;
+    padding-top: 25px;
+    text-align: center;
+    background-color: rgb(17, 84, 185);
+    font-family: 'Times New Roman', Times, serif;
+    height: 230px;
+    font-size: 35px;
+
+}
+
+.laboral {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* Formación academica */
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(14, 37, 165, 0.911);
+    height: auto;
+    padding-top: 25px;
+}
+
+.caracteristicas h2 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.item p {
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+footer {
+    color: #fff;
+    background-color: rgb(4, 28, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+ 
+}
+.li:hover{
+    box-shadow: 0 0 10px 100px #000 inset;
+}
